@@ -59,6 +59,7 @@ design-principles '(干净 简洁 典雅))
   const openai = new OpenAI({
     apiKey: api.key,
     baseURL: api.url,
+    timeout: 240000,
   });
 
   try {
