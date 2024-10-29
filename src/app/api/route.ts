@@ -203,7 +203,7 @@ line x1="66" y1="33" x2="110" y2="33" stroke="#8A4419" stroke-width="8"/>
   const openai = new OpenAI({
     apiKey: api.key,
     baseURL: api.url,
-    timeout: 240000,
+    timeout: 1240000,
   });
 
   try {
