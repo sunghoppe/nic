@@ -193,7 +193,7 @@ line x1="66" y1="33" x2="110" y2="33" stroke="#8A4419" stroke-width="8"/>
 ;; 运行规则
 ;; 1. 启动时必须运行 (start) 函数
 ;; 2. 之后调用主函数 (周易占卜 用户输入)
-;; 3. 只需要输出 svg 代码，不要任何解释，也不需要用代码块包裹。从这个开头 <svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+;; 3. 只需要输出 svg 代码，不要任何解释，也不需要用代码块包裹。
 `;
   const api = {
     key: envVariables.API_KEY,
