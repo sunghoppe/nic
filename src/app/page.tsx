@@ -51,12 +51,12 @@ export default function Home() {
     <div className="p-4 px-8 md:mx-20">
       <div className="gap-8 grid md:grid-cols-5">
         <div className="*:mt-4 md:col-span-3">
-          <h1 className="text-7xl font-serif">汉语新解</h1>
-          <p>给一个中文词汇，就生成一张精美的卡片，并且略带讽刺精美的解读。</p>
+          <h1 className="text-7xl font-serif">周易占卜</h1>
+          <p>万物唯心，心诚则灵。</p>
           <ModelConf onValueChange={(v)=>{setTemperature(v)}} t={temperature} />
           <Input
             className="w-full text-xl h-16"
-            placeholder="说吧, 他们又用哪个词来忽悠你了?"
+            placeholder="元亨利贞"
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
