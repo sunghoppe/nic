@@ -3,7 +3,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
-  title: "汉语新解",
+  title: "周易占卜",
 };
 
 export default function RootLayout({
