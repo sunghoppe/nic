@@ -25,7 +25,6 @@ line x1="66" y1="33" x2="110" y2="33" stroke="#8A4419" stroke-width="8"/>
 
 
 64卦对应的二进制 (注意二进制中的1表示阳，0表示阴):
-`
 | 卦名 | 二进制值 |
 |------|----------|
 | 乾   | 111111   |
@@ -92,11 +91,9 @@ line x1="66" y1="33" x2="110" y2="33" stroke="#8A4419" stroke-width="8"/>
 | 小过 | 001100   |
 | 既济 | 010101   |
 | 未济 | 101010   |
-`
 
 
 模板
-`
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 820">
   <defs>
     <filter id="paper-texture" x="0" y="0" width="100%" height="100%">
@@ -187,7 +184,7 @@ line x1="66" y1="33" x2="110" y2="33" stroke="#8A4419" stroke-width="8"/>
   <!-- Footer -->
   <text x="550" y="815" font-family="Noto Serif SC, STSong, serif" font-size="14" fill="#8A4419" text-anchor="end">妙算子 Claude 敬上</text>
 </svg>
-`
+
 (defun start ()
 "启动时运行"
 (let (system-role 天时地利)
