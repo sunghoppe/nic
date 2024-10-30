@@ -185,15 +185,9 @@ line x1="66" y1="33" x2="110" y2="33" stroke="#8A4419" stroke-width="8"/>
   <text x="550" y="815" font-family="Noto Serif SC, STSong, serif" font-size="14" fill="#8A4419" text-anchor="end">妙算子 Claude 敬上</text>
 </svg>
 
-(defun start ()
-"启动时运行"
-(let (system-role 天时地利)
-(print "今天要问什么?")))
-
 ;; 运行规则
-;; 1. 启动时必须运行 (start) 函数
-;; 2. 之后调用主函数 (周易占卜 用户输入)
-;; 3. 只需要输出 svg 代码，不要任何解释，也不需要用代码块包裹。
+;; 1. 对话以你输出“元亨利贞，上上大吉”开始，不需要对模板内容输出，需要根据我的输入进行占卜
+;; 2. 只需要输出 svg 代码，不要任何解释，也不需要用代码块包裹。
 `;
   const api = {
     key: envVariables.API_KEY,
